@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Corp.</title>
+  <meta name="description" content="サイトの概要文"> 
+  <!-- ファビコン -->
+  <link rel="shortcut icon" href="">
+
+  <!-- reset.css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- フォントawesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+  <!-- drawer.css 使うのはスマホサイズの時だけ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" media="screen and (max-width:767px)">
+  <!-- 1.11.3だったけど3.5.1に変更した→デイトラ総復習編htmlの動画 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js" defer></script>
+  <!-- wow -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- drawer.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js" defer></script>
+  <!-- wow -->
+  <script src="js/wow.min.js" defer></script>
+  <!-- scroll -->
+  <!-- <script src="//unpkg.com/jscroll/dist/jquery.jscroll.min.js"></script> -->
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+
+    <!-- ★original★ -->
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src="js/script.js" defer></script>
+
+</head>
+<!--    右から出るように設定    -->
+<body class="drawer drawer--right">
+  <header class="header">
+<!--    header-innerは自分で作ったクラス名    -->
+    <div class="header-inner inner">   
+        <div class="header-title is-sp">
+          Sample Corp.
+        </div>
+        <button type="button" class="drawer-toggle drawer-hamburger">
+          <span class="sr-only">toggle navigation</span>
+          <span class="drawer-hamburger-icon"></span>
+        </button>
+        <nav class="drawer-nav header-nav">
+          <ul class="drawer-menu header-menu">
+             <li class="header-nav-item"><a class="header-nav-item-link" href="#news">News</a></li>
+             <li class="header-nav-item"><a class="header-nav-item-link" href="#service">Service</a></li>
+             <li class="header-nav-item"><a class="header-nav-item-link" href="#results">Results</a></li>
+             <li class="header-nav-item"><a class="header-nav-item-link" href="#price">Price</a></li>
+             <li class="header-nav-item"><a class="header-nav-item-link" href="#comments">Comments</a></li>
+             <li class="header-nav-item"><a class="header-nav-item-link" href="#faqs">FAQs</a></li>
+             <li class="header-nav-item"><a class="header-nav-item-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+  <!-- /.header -->
+  <main class="main">
+    <div class="top">
+      <div class="inner top-inner">
+        <div class="top-message">
+          <h1 class="top-title">
+            詩が生れて、画が出来る。<br>とかくに人の世は住みにくい。
+          </h1>
+          <p class="top-text">
+            どこへ越しても住みにくいと悟った時、詩が生れて、<br class="is-sp">画が出来る。意地を通せば窮屈だ。
+          </p>
+          <p class="top-btn">
+            <a href="#contact"></a><button  class="util-btn1 -submit"  disabled>お問い合わせしてみる</button></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  <!-- /.top -->
+
+  <section class="news inner" id="news">
+    <div class="news-inner">
+      <div class="section-title section-news-title">
+         <h2>News</h2>
+      </div>
+      <div class="news-contents">
+        <div class="news-content">
+          <a  href="" class="news-content-link">
+            <div class="news-head">
+              <p class="news-day">
+                2019-02-01
+              </p>
+              <p class="news-title">
+                テキスト
+              </p>
+            </div>
+            <div class="news-body">
+              <div class="news-text">
+                ニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュース
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="news-content">
+          <a href="" class="news-content-link">
+            <div class="news-head">
+              <p class="news-day">
+                2019-02-01
+              </p>
+              <p class="news-title">
+                テキスト
+              </p>
+            </div>
+            <div class="news-body">
+              <div class="news-text">
+                ニュースニュースニュースニュースニュースニュースニュース
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="news-content">
+          <a href="" class="news-content-link">
+            <div class="news-head">
+              <p class="news-day">
+                2019-02-01
+              </p>
+              <p class="news-title">
+                テキスト
+              </p>
+            </div>
+            <div class="news-body">
+              <div class="news-text">
+                ニュースニュースニュースニュースニュースニュースニュース
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- /.news-contents -->
+      <div class="more-btn-wrapper">
+        <a href="#" class="util-btn2 more-btn">MORE</a>
+      </div>
+      <!-- /.util-btn2 -->
+    </div>
+    <!-- ./news-inner -->
+  </section>
+  <!-- /.news -->
+
+  <section class="service" id="service">
+    <div class="service-inner">
+      <div class="section-title section-service-title">
+          <h2>Service</h2>
+      </div>
+      <div class="service-contents">
+        <div class="service-content">
+          <div class="service-content-image"><img src="img/service1.svg" alt=""></div>
+          <h3 class="service-content-title">WEB<br>DESIGN</h3>
+          <div class="service-content-text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+        </div>
+        <div class="service-content">
+          <div class="service-content-image"><img src="img/service2.svg" alt=""></div>
+          <h3 class="service-content-title">WEB<br>CODING</h3>
+          <div class="service-content-text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+        </div>
+        <div class="service-content">
+          <div class="service-content-image"><img src="img/service3.svg" alt=""></div>
+          <h3 class="service-content-title">CMS<br>CUSTOMIZE</h3>
+          <div class="service-content-text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.service -->
+
+  <section class="results" id="results">
+    <div class="results-inner">
+      <div class="section-title section-results-title">
+        <h2>Results</h2>
+     </div>
+      <div class="results-contents">
+        <div class="results-content wow fadeInUp">
+            <a href="#" class="results-content-link">
+              <div class="results-content-image">
+                <img src="img/slide1.png" alt="">
+              </div>
+              <div class="results-content-text">
+                <h3 class="results-title">
+                  とかくに人の世は住みにくい。
+                </h3>
+                <p class="results-text">
+                  どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。
+                </p>
+              </div>
+            </a>
+            </div>
+          <!-- /.results-content -->
+          <div class="results-content wow fadeInUp">
+            <a href="#" class="results-content-link">
+              <div class="results-content-image">
+                <img src="img/slide1.png" alt="">
+              </div>
+              <div class="results-content-text">
+                <h3 class="results-title">
+                  とかくに人の世は住みにくい。
+                </h3>
+                <p class="results-text">
+                  どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。
+                </p>
+              </div>
+            </a>
+          </div>
+          <!-- /.results-content -->
+          <div class="results-content wow fadeInUp">
+            <a href="#" class="results-content-link">
+              <div class="results-content-image">
+                <img src="img/slide1.png" alt="">
+              </div>
+              <div class="results-content-text">
+                <h3 class="results-title">
+                  とかくに人の世は住みにくい。
+                </h3>
+                <p class="results-text">
+                  どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。
+                </p>
+              </div>
+              </a>
+          </div>
+          <!-- /.results-content -->
+      </div>
+      <div class="view-btn-wrapper">
+        <a href="#" class="util-btn2 view-btn">VIEW ALL</a>
+      </div>
+      <!-- /.util-btn2 -->
+    </div>
+  </section>
+  <!-- /.results -->
+
+  <section class="price" id="price">
+    <div class="inner price-inner">
+      <div class="section-title">
+        <h2>Price</h2>
+      </div>
+      <table class="price-table">
+        <tr>
+          <th>row1</th>
+          <td>Price ¥10,000</td>
+        </tr>
+        <tr>
+          <th>row2</th>
+          <td>Price ¥10,000</td>
+        </tr>
+        <tr>
+          <th>row3</th>
+          <td>Price ¥10,000</td>
+        </tr>
+      </table>
+      <div class="price-text">
+        ※ 上記料金はサンプルです。
+      </div>
+    </div>
+  </section>
+  <!-- /.price -->
+
+  <section class="comments" id="comments">
+    <div class="comments-inner">
+        <div class="comments-contents">
+          <div class="section-title section-comments-title">
+            <h2>comments</h2>
+          </div>
+          <div class="comments-content">
+            <div class="comments-content-head">
+              <img class="comments-content-image" src="img/comments1.png" alt="">
+            </div>
+            <div class="comments-text">
+              どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。
+            </div>
+          </div>
+          <div class="comments-content">
+            <div class="comments-content-head">
+              <img class="comments-content-image" src="img/comments2.png" alt="">
+            </div>
+            <div class="comments-text">
+              どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。
+            </div>
+          </div>
+        </div>
+       <!-- ./comments-contents -->
+      <div class="comments-is-pc">
+        <!-- パソコンだけで表示される背景画像 -->
+      </div>
+    </div>
+  </section>
+  <!-- ./comments -->
+
+  <section class="faqs" id="faqs">
+    <div class="inner faqs-inner">
+      <div class="faqs-inner">
+        <div class="section-title faqs-section-title">
+          <h2>Q&A</h2>
+        </div>
+        <div class="faqs-contents">
+          <div class="faqs-content">
+            <dt class="faqs-content-title">質問質問質問？</dt>
+            <dd class="faqs-content-text">
+              <div class="accordion-body">
+                回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答
+              </div>
+            </dd>
+          </div>
+          <div class="faqs-content">
+            <dt class="faqs-content-title">質問質問質問？</dt>
+            <dd class="faqs-content-text">
+              <div class="accordion-body">
+                回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答
+              </div>
+            </dd>
+          </div>
+          <div class="faqs-content">
+            <dt class="faqs-content-title">質問質問質問？</dt>
+            <dd class="faqs-content-text">
+              <div class="accordion-body">
+                回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答
+              </div>
+            </dd>
+          </div>
+          <div class="faqs-content">
+            <dt class="faqs-content-title">質問質問質問？</dt>
+            <dd class="faqs-content-text">
+              <div class="accordion-body">
+                回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答
+              </div>
+            </dd>
+          </div>
+          <div class="faqs-content">
+            <dt class="faqs-content-title">質問質問質問？</dt>
+            <dd class="faqs-content-text">
+              <div class="accordion-body">
+                回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答
+              </div>
+            </dd>
+          </div>
+          <div class="faqs-content">
+            <dt class="faqs-content-title">質問質問質問？</dt>
+            <dd class="faqs-content-text">
+              <div class="accordion-body">
+                回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答
+              </div>
+            </dd>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ./faqs -->
+
+  <section class="access">
+    <div class="access-text-wrapper">
+      <div class="section-title access-section-title">
+        <h2>ACCESS</h2>
+      </div>
+      <p class="access-text">
+        〒106-6126<br>
+        東京都港区六本木 6丁目 10-1<br>
+        六本木ヒルズ森タワー
+      </p>
+      <div class="util-btn-wrapper2">
+        <a href="#" class="util-btn2 view-btn">Google Maps</a>
+      </div>
+    </div>
+    <div class="access-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.5903597409133!2d130.39790272217633!3d33.589983699528304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541918d92640001%3A0xa6be043af574bf0b!2z6K2m5Zu65YWs5ZyS!5e0!3m2!1sja!2sjp!4v1605236978932!5m2!1sja!2sjp" width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+    <!-- /.util-btn2 -->
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="contact-title-wrapper">
+        <div class="section-title contact-title">
+          <h2>Contact us</h2>
+        </div>
+        <p class="contact-lead">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。</p>
+      </div>
+      <form action="" class="contact-form-wrapper">
+        <dl class="contact-list">
+          <div class="contact-item">
+            <dt class="contact-item-title">
+              氏名<span class="contact-item-title-inline">*</span>
+            </dt>
+            <dd class="contact-item-input">
+              <input type="text" name="entry.293680577" required>
+            </dd>
+          </div>
+          <!-- ./contact-item -->
+          <div class="contact-item">
+            <dt class="contact-item-title">
+              フリガナ<span class="contact-item-title-inline">*</span>
+            </dt>
+            <dd class="contact-item-input">
+              <input type="text" name="entry.293680577" required>
+            </dd>
+          </div>
+          <!-- ./contact-item -->
+          <div class="contact-item">
+            <dt class="contact-item-title">
+              メールアドレス<span class="contact-item-title-inline">*</span>
+            </dt>
+            <dd class="contact-item-input">
+              <input type="email" name="emailAddress" required>
+            </dd>
+          </div>
+          <!-- ./contact-item -->
+          <div class="contact-item">
+            <dt class="contact-item-title">
+              性別<span class="contact-item-title-inline">*</span>
+            </dt>
+            <dd class="contact-radio-wrap">
+                <label class="contact-radio">
+                  <input type="radio" name="entry.1664086589" class="contact-radio-input" value="法人" required checked>
+                  <span class="contact-radio-part">男性</span>
+                </label>
+                <label class="contact-radio">
+                  <input type="radio" name="entry.1664086589" class="contact-radio-input" value="個人" required>
+                  <span class="contact-radio-part">女性</span>
+                </label>
+            </dd>
+          </div>
+          <!-- ./contact-item -->
+          <div class="contact-message-item">
+            <dt class="contact-item-title">
+              メッセージ<span class="contact-item-title-inline">*</span>
+            </dt>
+            <dd class="contact-item-input">
+              <textarea name="entry.1742165224" required></textarea>
+            </dd>
+          </div>
+          <!-- ./contact-item -->
+        </dl>
+        <!-- contact-lisy -->
+        <div class="contact-footer">
+          <p class="contact-footer-text">
+            <label for="" class="contact-privacy">
+              <input type="checkbox" name="entry.652401892" class="contact-privacy-input" value="プライバシーポリシーの同意" required>
+              <span class="contact-privacy-part"></span>
+            </label>
+            <a  href="#" class="contact-privacy-link">個人情報保護方針に同意する</a>
+          </p>
+        </div>
+        <!-- /.contact-footer -->
+        <div class="contact-footer-submit">
+          <button id="js-submit" class="util-btn1 -submit" type="submit" disabled>送信する</button>
+        </div>
+      </form>
+      <!-- /.form -->
+    </div>
+  </section>
+  <!-- /.contact -->
+</main>
+
+
+  <footer class="footer">
+    <div class="inner footer-inner">
+      <div class="footer-left">
+        <div class="footer-sns-contents">
+          <div class="footer-sns-content">
+            <a href="#" class="footer-sns-item-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+          <!-- /.footer-sns-content -->
+          <div class="footer-sns-content">
+            <a href="#" class="footer-sns-item-link" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+          </div>
+          <!-- /.footer-sns-content -->
+        </div>
+        <div class="footer-privacy-contents">
+          <div class="footer-privacy-content">
+            <a href="" class="footer-privacy-content-link">サイトマップ</a>
+          </div>
+          <div class="footer-privacy-content">
+            <a href="" class="footer-privacy-content-link">個人情報保護方針</a>
+          </div>
+          <div class="footer-privacy-content">
+            <a href="" class="footer-privacy-content-link">プライバシーポリシー</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.footer-left -->
+      <div class="footer-right">
+        <h1 class="footer-logo">
+          Sample Corp.
+        </h1>
+        <p class="footer-copyright"><small lang="en">© デイトラ Landing page Sample.</small></p>
+      </div>
+      <!-- /.footer-right -->
+    </div>
+  </footer>
+
+  <!-- トップへ戻るボタン -->
+  <a href="#" class="totop">
+    <img class="fas fa-sort-up" src="img/totop.svg" alt="">
+  </a>
+  
+</body>
+
+</html>
