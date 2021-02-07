@@ -12,7 +12,7 @@ jQuery('.faqs-content-title').click(function () {
   jQuery(this).next().slideToggle();
     //指定したクラス名があれば削除、なければ追加するというONとOFFを切り替える仕組み
   // jQuery(this).children('.accordion__icon').
-  toggleClass('is-open');
+  jQuery(this).toggleClass('is-open');
 });
 
 
@@ -48,3 +48,23 @@ jQuery(window).on("scroll", function() {
     jQuery('.totop').removeClass( 'is-show' );
   }
 });
+
+  // results
+  new Swiper( '.swiper-container', {
+    speed: 400,
+    spaceBetween: 40,
+    width: 400,
+    loop: true,
+    loopedSlides: 6,
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true,
+    },
+    breakpoints: {
+      768: {
+				spaceBetween: 24,
+				width: 274,
+      }
+    }
+  });
